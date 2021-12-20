@@ -262,11 +262,11 @@ class FreeplayState extends MusicBeatState
 			changeSelection(shiftMult);
 		}
 
-		if (controls.UI_LEFT_P)
-			changeDiff(-1);
-		else if (controls.UI_RIGHT_P)
-			changeDiff(1);
-		else if (upP || downP) changeDiff();
+		// if (controls.UI_LEFT_P)
+		// 	changeDiff(-1);
+		// else if (controls.UI_RIGHT_P)
+		// 	changeDiff(1);
+		// else if (upP || downP) changeDiff();
 
 		if (controls.BACK)
 		{
@@ -374,7 +374,7 @@ class FreeplayState extends MusicBeatState
 		#end
 
 		PlayState.storyDifficulty = curDifficulty;
-		diffText.text = '< ' + CoolUtil.difficultyString() + ' >';
+		// diffText.text = '< ' + CoolUtil.difficultyString() + ' >';
 		positionHighscore();
 	}
 

@@ -49,6 +49,14 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			false); //Default value
 		addOption(option);
 
+
+		var option:Option = new Option('Hitsounds', //Name
+			'If checked, a hit sound will play when you hit a note.', //Description
+			'hitsounds', //Save data variable name
+			'bool', //Variable type
+			false); //Default value
+		addOption(option);
+
 		var option:Option = new Option('Middlescroll',
 			'If checked, your notes get centered.',
 			'middleScroll',

@@ -1,0 +1,49 @@
+{
+	"songs": [
+		[
+			"Parallel",
+			"jessen",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Quick Maths",
+			"jessen",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Papa Smurf",
+			"uh",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "",
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"storyName": "Jessen",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
