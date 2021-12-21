@@ -83,6 +83,7 @@ class ClientPrefs {
 
 	public static function saveSettings() {
 		FlxG.save.data.downScroll = downScroll;
+		FlxG.save.data.hitsounds = hitsounds;
 		FlxG.save.data.middleScroll = middleScroll;
 		FlxG.save.data.showFPS = showFPS;
 		FlxG.save.data.flashing = flashing;
